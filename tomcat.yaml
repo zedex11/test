@@ -57,5 +57,5 @@ spec:
         paths:
         - path: /
           backend:
-            serviceName: jenkins
+            serviceName: tomcat
             servicePort: 80
