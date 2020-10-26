@@ -5,6 +5,7 @@ metadata:
   labels:
     app: tomcat
   name: tomcat
+  namespace: tomcat
 spec:
   replicas: 1
   selector:
@@ -30,6 +31,7 @@ metadata:
   labels:
     app: tomcat
   name: tomcat
+  namespace: tomcat
 spec:
   ports:
   - nodePort: 32223
